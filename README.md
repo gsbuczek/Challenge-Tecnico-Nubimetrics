@@ -19,13 +19,14 @@ Se adjunta el script de la base de datos en el archivo <strong>script.txt</stron
 Para CREAR un usuario debo realizar una solicitud POST a la direccion https://localhost:44356/api/Usuarios con 
 siguiente Json como estructira y los valores del usuario.
 
-
+```
 {
         "Nombre": "Persona",
         "Apellido": "ApellidoPersona",
         "Email": "ejemplo@gmail.com",
         "Pass": "1234567890"
 }
+```
 
 Para LISTAR los usuarios debo realizar una solicitud GET e ingresar la siguiente direccion https://localhost:44356/api/Usuarios
 
