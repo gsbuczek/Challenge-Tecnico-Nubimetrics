@@ -1,6 +1,11 @@
 # Challenge-Nubimetrics
 Challenge Técnico Nubimetrics
 
+¿Porque usar patrones de diseño?
+
+Pienso en los patrones de diseño como aquello que ayuda al programador a <strong>organizar, moldear y estandarizar</strong> la escritura del codigo,
+siendo una herramienta indispensable para lograr un resultado prolijo, legible para nosotros y para todo aquel que en un futuro vea nuestro codigo.
+
 INSTRUCCIONES DE USO DE LA APLICACION
 
 Para poder utilizar el endpoint de Paises debe hacer una solicitud GET. https://localhost:44356/api/pais?pais=AR
