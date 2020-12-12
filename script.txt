@@ -1,0 +1,26 @@
+USE [Challenge]
+GO
+/****** Object:  Table [dbo].[Usuarios]    Script Date: 12/12/2020 06:38:29 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Usuarios](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [varchar](150) NULL,
+	[Apellido] [varchar](150) NULL,
+	[Email] [varchar](100) NULL,
+	[Pass] [varchar](255) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+SET IDENTITY_INSERT [dbo].[Usuarios] ON 
+
+INSERT [dbo].[Usuarios] ([ID], [Nombre], [Apellido], [Email], [Pass]) VALUES (1, N'Lila', N'Romero', N'teffy023@gmail.com', N'12345Romero')
+INSERT [dbo].[Usuarios] ([ID], [Nombre], [Apellido], [Email], [Pass]) VALUES (3, N'Sebastian', N'Buczek', N'buczek@gmail.com', N'12345Buczek')
+INSERT [dbo].[Usuarios] ([ID], [Nombre], [Apellido], [Email], [Pass]) VALUES (4, N'Romina', N'Retamozo', N'romina@gmail.com', N'12345Retamozo')
+SET IDENTITY_INSERT [dbo].[Usuarios] OFF
+GO
