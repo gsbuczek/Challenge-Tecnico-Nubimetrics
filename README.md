@@ -6,7 +6,7 @@
 Pienso en los patrones de diseño como aquello que ayuda al programador a <strong>organizar, moldear y estandarizar</strong> la escritura del codigo,
 siendo una herramienta indispensable para lograr un resultado prolijo, legible para nosotros y para todo aquel que en un futuro vea nuestro codigo.
 
-<h3>INSTRUCCIONES DE USO DE LA APLICACION</h3>
+<h3>INSTRUCCIONES DE USO DE LA APLICACIÓN</h3>
 
 Para poder utilizar el endpoint de Paises debe hacer una solicitud GET. https://localhost:44356/api/pais?pais=AR
 
@@ -14,7 +14,7 @@ Para poder utilizar el endpoint de Busqueda debe hacer una solicitud por GET a. 
 
 <h3>INSTRUCCIONES DEL ABM USUARIOS</h3>
 
-Se adjunta el script de la base de datos en el archivo script.txt para configuracion de la misma, la cual se encuentra adjunta como scriptDBChallenge.sql
+Se adjunta el script de la base de datos en el archivo <strong>script.txt</strong> para configuracion de la misma, la cual se encuentra adjunta como <strong>scriptDBChallenge.sql</strong>
 
 Para CREAR un usuario debo realizar una solicitud POST a la direccion https://localhost:44356/api/Usuarios con 
 siguiente Json como estructira y los valores del usuario.
