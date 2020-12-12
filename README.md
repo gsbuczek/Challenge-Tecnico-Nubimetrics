@@ -1,5 +1,5 @@
 
-### Challenge Técnico Nubimetrics - Buczek Guillermo Sebastian
+#### Challenge Técnico Nubimetrics - Buczek Guillermo Sebastian
 
 ### ¿Porque usar patrones de diseño?
 
@@ -16,7 +16,9 @@ Para poder utilizar el endpoint de Busqueda debe hacer una solicitud por GET a. 
 
 Se adjunta el script de la base de datos en el archivo `script.txt` para configuracion de la misma, la cual se encuentra adjunta como `scriptDBChallenge.sql`
 
-Para # CREAR un usuario debo realizar una solicitud POST a la direccion `https://localhost:44356/api/Usuarios` con 
+## CREAR USUARIOS
+
+Para CREAR un usuario debo realizar una solicitud POST a la direccion `https://localhost:44356/api/Usuarios` con 
 siguiente Json como estructira y los valores del usuario.
 
 ```
@@ -28,9 +30,11 @@ siguiente Json como estructira y los valores del usuario.
 }
 ```
 
-Para # LISTAR los usuarios debo realizar una solicitud GET e ingresar la siguiente direccion `https://localhost:44356/api/Usuarios`
+## LISTAR USUARIOS
+Para LISTAR los usuarios debo realizar una solicitud GET e ingresar la siguiente direccion `https://localhost:44356/api/Usuarios`
 
-Para # MODIFICAR un usuario debe hacer una solicitud PUT a la siguiente direccion `https://localhost:44356/api/Usuarios`
+## MODIFICAR USUARIOS
+Para MODIFICAR un usuario debe hacer una solicitud PUT a la siguiente direccion `https://localhost:44356/api/Usuarios`
 paso siguiente modificar el parametro, con la siguiente estructura.
 
 ```
@@ -42,8 +46,9 @@ paso siguiente modificar el parametro, con la siguiente estructura.
         "Pass": "1234567890"
 }
 ```
+## ELIMINAR USUARIOS
 
-Para # ELIMINAR un usuario debe hacer una solicitud DELETE a la siguiente direccion `https://localhost:44356/api/Usuarios`
+Para ELIMINAR un usuario debe hacer una solicitud DELETE a la siguiente direccion `https://localhost:44356/api/Usuarios`
 paso siguiente modificar el parametro, con la siguiente estructura.
 ```
 {
